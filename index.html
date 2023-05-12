@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Piano</title>
+  </head>
+  <body>
+    <section class="piano">
+      <section class="controls">
+        <h1>Piano</h1>
+
+        <label class="checkbox__label">
+          Show keys
+          <span class="switcher">
+            <span class="switcher__button"></span>
+          </span>
+          <input type="checkbox" class="checkbox__keys" hidden />
+        </label>
+      </section>
+
+      <section class="piano__keys disabled-keys">
+        <div class="key white" data-note="key01"><span>TAB</span></div>
+        <div class="key black" data-note="key02"><span>1</span></div>
+        <div class="key white" data-note="key03"><span>Q</span></div>
+        <div class="key black" data-note="key04"><span>2</span></div>
+        <div class="key white" data-note="key05"><span>W</span></div>
+        <div class="key white" data-note="key06"><span>E</span></div>
+        <div class="key black" data-note="key07"><span>4</span></div>
+        <div class="key white" data-note="key08"><span>R</span></div>
+        <div class="key black" data-note="key09"><span>5</span></div>
+        <div class="key white" data-note="key10"><span>T</span></div>
+        <div class="key black" data-note="key11"><span>6</span></div>
+        <div class="key white" data-note="key12"><span>Y</span></div>
+        <div class="key white" data-note="key13"><span>U</span></div>
+        <div class="key black" data-note="key14"><span>8</span></div>
+        <div class="key white" data-note="key15"><span>I</span></div>
+        <div class="key black" data-note="key16"><span>9</span></div>
+        <div class="key white" data-note="key17"><span>O</span></div>
+        <div class="key white" data-note="key18"><span>P</span></div>
+        <div class="key black" data-note="key19"><span>-</span></div>
+        <div class="key white" data-note="key20"><span>[</span></div>
+        <div class="key black" data-note="key21"><span>=</span></div>
+        <div class="key white" data-note="key22"><span>]</span></div>
+        <div class="key black" data-note="key23"><span>Z</span></div>
+        <div class="key white" data-note="key24"><span>X</span></div>
+      </section>
+    </section>
+    <script src="./js/script.js" defer></script>
+  </body>
+</html>
