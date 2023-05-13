@@ -1,4 +1,3 @@
-//Todas as teclas (key) na variável keys
 const keys = document.querySelectorAll(".key");
 const checkbox = document.querySelector(".checkbox__keys");
 const switcher = document.querySelector(".switcher");
@@ -10,7 +9,7 @@ const playNote = (note) => {
   audio.play();
 };
 
-//Quando clicar na tela, vai mudar o estilo da tecla
+//Quando clicar na tecla, vai mudar o estilo dela
 const handleMouseDown = (key) => {
   playNote(key.getAttribute("data-note"));
 
@@ -103,7 +102,6 @@ const keyUpperMapper = {
   x: () => handleMouseUp(keys[23]),
 };
 
-//Tocando pelo teclado
 document.addEventListener("keydown", (event) => {
   event.preventDefault();
   keyDownMapper[event.key]();

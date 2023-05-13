@@ -16,7 +16,7 @@ body {
   background-color: #121212;
   width: 1350px;
   height: 400px;
-  margin: 100px auto; /*centralizado*/
+  margin: 100px auto; /*piano centralizado*/
   border-radius: 20px;
   color: #000;
   display: flex;
@@ -75,17 +75,17 @@ body {
 
 .white {
   background-color: white;
-  flex-grow: 1; /*vao divdir o espaco iguamente*/
+  flex-grow: 1;
   border-radius: 10px;
   border-bottom: 8px solid #ddd;
   color: rgba(0, 0, 0, 0.3);
   margin-left: -17px;
-  z-index: 1; /*teclas por baixo*/
+  z-index: 1; /*teclas branacas por baixo*/
 }
 
 .key span {
   font-weight: 600;
-  position: absolute; /*pro tamanho das letras não influenciar no espaçamento*/
+  position: absolute; /*o tamanho das letras não vai influenciar no espaçamento*/
   transition-duration: 300ms;
 }
 
@@ -95,7 +95,7 @@ body {
   align-items: flex-end;
   justify-content: center;
   padding-bottom: 8px;
-  user-select: none; /*fica sem aquele ngc de selecionar o texto*/
+  user-select: none; /*tira a seleção de texto*/
 }
 
 .black {
